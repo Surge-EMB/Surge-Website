@@ -1,20 +1,18 @@
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
-import Typed from 'react-typed';
-
 import Footer from './Footer.jsx';
 
 const Sponsors = () => {
     const location = useLocation();
 
     useEffect(() => {
-        // Check if the location has an anchor (e.g., /about#mailing)
+        // Check if the location has an anchor (e.g., /sponsors#sponsor)
         if (location.hash) {
         const targetElement = document.getElementById(location.hash.substring(1));
         if (targetElement) {
             // Scroll to the target element with smooth behavior
-            targetElement.scrollIntoView({ behavior: 'smooth', block: "end"});
+            targetElement.scrollIntoView({ behavior: 'smooth', block: "start"});
         }
         }
     }, [location]);

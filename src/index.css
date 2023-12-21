@@ -10,8 +10,7 @@
     li {
         @apply p-4
     }
-
-    /* button {
-        @apply text-white border bg-med-blue border-med-blue hover:text-black transition-co
-    } */
+    html {
+        @apply scroll-smooth;
+      }
 }   

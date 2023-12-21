@@ -3,7 +3,7 @@ import Typed from 'react-typed';
 
 import Footer from './Footer.jsx';
 
-import backgroundImage from '../assets/media/hsfhomepic.jpeg';
+import backgroundImage from '../assets/media/motorcycle_render_zout.jpg';
 
 const teamMembers = [
     {
@@ -78,7 +78,8 @@ const Home = () => {
                 style={{ backgroundImage: `url(${backgroundImage})` }}
             >
                 {/* Dark Overlay */}
-                <div className="absolute inset-0 bg-black opacity-60"></div>
+                <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+                <div className="absolute inset-0 backdrop-blur-md"></div>
 
                 <RevealOnScroll>
                     <div className="flex flex-col items-center mx-auto relative z-10">

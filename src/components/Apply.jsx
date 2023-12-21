@@ -1,8 +1,6 @@
 import React from 'react';
 import Footer from './Footer.jsx';
 
-import backgroundImage from '../assets/media/hsfhomepic.jpeg';
-
 // Sample data for program cards
 const programData = [
     {
