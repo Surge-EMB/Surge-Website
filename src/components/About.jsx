@@ -14,20 +14,20 @@ const teamMembers = [
     {
         name: 'Jackson Zilles',
         role: 'MechE 2025',
-        description: 'lorem sidafj lasiefjasdif n;sndca iajsldifjal einas a;enfalsd ae asdlfihaseflasf iheifj dfiejafijs ifeadihais ashfliaehfsiff!',
-        imageUrl: require('../assets/media/Team/Charles.png'),
+        description: 'Senior mechanical engineering student, interning at Tesla.',
+        imageUrl: require('../assets/media/Team/Jackson.jpg'),
     },
     {
         name: 'Meta Zhou',
         role: 'MechE 2025',
         description: 'lorem sidafj lasiefjasdif n;sndca iajsldifjal einas a;enfalsd ae asdlfihaseflasf iheifj dfiejafijs ifeadihais ashfliaehfsiff!',
-        imageUrl: require('../assets/media/Team/Matthew.jpg'),
+        imageUrl: require('../assets/media/Team/Cameron.jpeg'),
     },
     {
         name: 'Antonio Herrera',
         role: 'MechE 2025',
         description: 'lorem sidafj lasiefjasdif n;sndca iajsldifjal einas a;enfalsd ae asdlfihaseflasf iheifj dfiejafijs ifeadihais ashfliaehfsiff!',
-        imageUrl: require('../assets/media/Team/Kyle.png'),
+        imageUrl: require('../assets/media/Team/Cameron.jpeg'),
     },
 ];
 
@@ -113,9 +113,9 @@ const About = () => {
                     <div className="md:flex md:flex-row">
                         <div className="flex flex-col items-center justify-center md:w-2/3">
                             <div className="lg:flex lg:flex-row lg:justify-center mb-5 text-center font-bold">
-                                <h1 className="text-3xl">Join a community of</h1>
+                                <h1 className="md:text-3xl text-2xl">Join a community of</h1>
                                 <Typed 
-                                    className="text-3xl pl-2"
+                                    className="md:text-3xl text-2xl pl-2"
                                     strings={['engineers', 'mechanics', 'designers', 'developers', 'entrepreneurs', 'friends']}
                                     typeSpeed={100}
                                     backSpeed={120}
