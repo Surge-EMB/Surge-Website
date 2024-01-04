@@ -1,34 +1,35 @@
 import React, { useEffect, useRef, useState } from "react";
+import { useLocation } from 'react-router-dom';
 import Typed from 'react-typed';
 
 import Footer from './Footer.jsx';
 
-import backgroundImage from '../assets/media/motorcycle_render_zout.jpg';
+import backgroundImage from '../assets/media/unsplash_moto_1.jpeg';
 
 const teamMembers = [
     {
-        name: 'Cameron Dang',
-        role: 'EECS 2025',
-        description: 'Hi, I\'m Cameron, a junior at UC Berkeley studying EECS, BioE, and design. I enjoy playing tennis, skiing, and love motorsports (F1, cars, motorcycles)!',
-        imageUrl: require('../assets/media/Team/Cameron.jpeg'),
-    },
-    {
         name: 'Jackson Zilles',
         role: 'MechE 2025',
-        description: 'Senior mechanical engineering student, interning at Tesla.',
+        description: '',
         imageUrl: require('../assets/media/Team/Jackson.jpg'),
+    },
+    {
+        name: 'Cameron Dang',
+        role: 'EECS 2025',
+        description: '',
+        imageUrl: require('../assets/media/Team/Cameron.jpeg'),
     },
     {
         name: 'Meta Zhou',
         role: 'MechE 2025',
-        description: 'lorem sidafj lasiefjasdif n;sndca iajsldifjal einas a;enfalsd ae asdlfihaseflasf iheifj dfiejafijs ifeadihais ashfliaehfsiff!',
-        imageUrl: require('../assets/media/Team/Cameron.jpeg'),
+        description: '',
+        imageUrl: require('../assets/media/Team/Blank.jpeg'),
     },
     {
         name: 'Antonio Herrera',
         role: 'MechE 2025',
-        description: 'lorem sidafj lasiefjasdif n;sndca iajsldifjal einas a;enfalsd ae asdlfihaseflasf iheifj dfiejafijs ifeadihais ashfliaehfsiff!',
-        imageUrl: require('../assets/media/Team/Cameron.jpeg'),
+        description: '',
+        imageUrl: require('../assets/media/Team/Blank.jpeg'),
     },
 ];
 
@@ -69,6 +70,19 @@ const RevealOnScroll = ({ children }) => {
   };
 
 const Home = () => {
+    const location = useLocation();
+
+    useEffect(() => {
+        // Check if the location has an anchor (e.g., /about#mailing)
+        if (location.hash) {
+        const targetElement = document.getElementById(location.hash.substring(1));
+        if (targetElement) {
+            // Scroll to the target element with smooth behavior
+            targetElement.scrollIntoView({ behavior: 'smooth', block: "end"});
+        }
+        }
+    }, [location]);
+
     return (
         <div className="bg-gray-800 text-white min-h-screen">
 
@@ -78,8 +92,8 @@ const Home = () => {
                 style={{ backgroundImage: `url(${backgroundImage})` }}
             >
                 {/* Dark Overlay */}
-                <div className="absolute inset-0 bg-black bg-opacity-70"></div>
-                <div className="absolute inset-0 backdrop-blur-md"></div>
+                <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+                <div className="absolute inset-0 backdrop-blur-sm"></div>
 
                 <RevealOnScroll>
                     <div className="flex flex-col items-center mx-auto relative z-10">
@@ -132,7 +146,7 @@ const Home = () => {
                             <h1 className="text-center font-bold text-3xl">Meet Berkeley's fastest club.</h1>
                         </div>
                     </RevealOnScroll>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 md:p-8">
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:p-8">
                         {teamMembers.map((member, index) => (
                             <div key={index} className="font-light text-center">
                                 <RevealOnScroll>
@@ -153,40 +167,33 @@ const Home = () => {
                 </div>
 
                 {/* Join the community */}
-                <div className="flex flex-col items-center my-4 p-4 md:p-8">
-                    <div className="md:w-3/4 md:flex md:flex-row">
-                        <div className="md:order-last my-8 md:w-1/3">
-                            <RevealOnScroll>
-                                <img className="object-cover" src={require("../assets/media/hsfhomepic.jpeg")} alt="TeamPic"/>
-                            </RevealOnScroll>
-                        </div>
+                <div className="flex flex-col items-center p-4 md:p-8">
+                    <div className="md:flex md:flex-row">
                         <div className="flex flex-col items-center justify-center md:w-2/3">
-                            <RevealOnScroll>
-                                <div className="md:flex md:flex-row md:justify-center mb-5 md:px-10 text-center font-bold">
-                                    <h1 className="md:text-3xl text-2xl">Join a community of</h1>
-                                    <Typed 
-                                        className="md:text-3xl text-2xl pl-2"
-                                        strings={['engineers', 'mechanics', 'designers', 'developers', 'entrepreneurs', 'friends']}
-                                        typeSpeed={100}
-                                        backSpeed={120}
-                                        loop
-                                    />
-                                </div>
-                            </RevealOnScroll>
-                            <RevealOnScroll>
-                                <p className="text-xl font-light mt-4">
-                                    We are <b className="font-bold">Surge</b>, a UC Berkeley student organization dedicated to motorcycles 
-                                    ayadasd fiasdfj aslfjalsif jlajef;aljfi as;dlfja siejialsidfj sdafi iisadfjli sajifaj dasidjfasjidjf asdfilasjdf
-                                    asdjlfiasidfjsadjf as flasjfj iasjfjeijfijlwadnianeiaifsijfla.
-                                </p>
-                                <div className="flex justify-center my-5">
-                                    <div className="h-fit w-fit rounded-full bg-gradient-to-r from-blue-700 via-purple-700 to-fuchsia-700 hover:from-blue-400 hover:via-purple-400 hover:to-fuchsia-400 p-1">
-                                        <div className="bg-gray-800 rounded-full p-2">
-                                            <a href="/apply" className="font-light rounded-lg text-2xl px-4 py-2 text-center">Join the Team</a>
-                                        </div>
+                            <div className="lg:flex lg:flex-row lg:justify-center mb-5 text-center font-bold">
+                                <h1 className="md:text-3xl text-2xl">Join a community of</h1>
+                                <Typed 
+                                    className="md:text-3xl text-2xl pl-2"
+                                    strings={['engineers', 'mechanics', 'designers', 'developers', 'entrepreneurs', 'friends']}
+                                    typeSpeed={100}
+                                    backSpeed={120}
+                                    loop
+                                />
+                            </div>
+                            <p className="text-xl font-light mt-4 md:px-5">
+                                We are <b className="font-bold">Surge</b>, a UC Berkeley student organization dedicated to exploring the realm of energy and uniting it with 
+                                a passion for motorcycles. Join us on our journey to research, adapt, and advance electric powertrains, aerodynamics, and much more.
+                            </p>
+                            <div className="flex justify-center my-5">
+                                <div className="h-fit w-fit rounded-full bg-gradient-to-r from-blue-700 via-purple-700 to-fuchsia-700 hover:from-blue-400 hover:via-purple-400 hover:to-fuchsia-400 p-1">
+                                    <div className="bg-slate-800 rounded-full p-2">
+                                        <a href="/apply" className="font-light rounded-lg text-2xl px-4 py-2 text-center">Apply</a>
                                     </div>
                                 </div>
-                            </RevealOnScroll>
+                            </div>
+                        </div>
+                        <div id="mailing" className="md:order-last my-8 md:w-1/2">
+                            <iframe title="Mailing List" src="https://airtable.com/embed/appbckQhXl5Sl54J1/pagEtHgEC0HLJ77Pe/form" frameborder="0" onmousewheel="" width="100%" height="533" className="bg-transparent border-1;"></iframe>
                         </div>
                     </div>
                 </div>

@@ -41,17 +41,17 @@ const Sponsors = () => {
                 </div>
 
                 {/* Goals */}
-                <div className="max-h-[50vh] w-auto my-8 overflow-hidden">
-                    <img className="object-cover" src={require("../assets/media/hsfhomepic.jpeg")} alt="Concept Motorcycle"/>
+                <div className="flex justify-center max-h-[50vh] w-auto my-8 overflow-hidden">
+                    <img className="object-fill blur-md" src={require("../assets/media/motorcycle_render_zout.jpg")} alt="Concept Motorcycle"/>
                 </div>
                 <div className="flex flex-col mt-20 mb-4 p-4 md:p-8">
                     <div className="md:flex md:flex-row md:items-center md:justify-center py-4">
                         <div className="md:w-1/2 md:px-4">
                             <h2 className="md:text-center font-bold md:text-6xl text-4xl py-2">Thank you.</h2>
                             <p className="text-left text-2xl font-light mt-4">
-                            Surge flourishes because of the invaluable sponsors who have played a pivotal role in our success. 
+                            Surge flourishes because of the invaluable sponsors playing a pivotal role in our success. 
                             Their generosity has not only fueled our passion but also enabled us to create a vibrant and thriving community within our team.
-                            We extend our most heartfelt gratitudes to the organizations above.
+                            We extend our most heartfelt gratitudes to them.
                             </p>
                         </div>
                         <div id="sponsor" className="md:w-1/2 my-8">

@@ -5,18 +5,18 @@ import Footer from './Footer.jsx';
 const programData = [
     {
         title: 'Surge Tabling',
-        date: '1/18/23-1/20/23',
-        description: 'Table table with motorcycle wow so cool',  
+        date: 'TBD',
+        description: 'Tabling!',  
     },
     {
         title: 'Infosession 1',
-        date: '1/20/23',
-        description: 'Some random event over here',
+        date: 'TBD',
+        description: 'More info to come.',
     },
     {
         title: 'Infosession 2',
-        date: '1/24/23',
-        description: 'Random event number 2 right here',
+        date: 'TBD',
+        description: 'More info to come.',
     },
 ];
 
@@ -38,7 +38,7 @@ const Apply = () => {
         {/* Form Links */}
         <div className="flex flex-row mb-2 md:p-4">
             <a target="_blank" rel="noopener noreferrer" href="https://airtable.com/appbckQhXl5Sl54J1/pagfZL0ou6RoU2BiG/form" className="text-black bg-amber-400 hover:bg-amber-600 font-medium rounded-lg text-lg mx-4 px-4 py-2 text-center">Application</a>
-            <a href="/about#mailing" className="text-black bg-amber-400 hover:bg-amber-600 font-medium rounded-lg text-lg px-4 py-2 text-center">Mailing List</a>
+            <a href="/#mailing" className="text-black bg-amber-400 hover:bg-amber-600 font-medium rounded-lg text-lg px-4 py-2 text-center">Mailing List</a>
         </div>
         {/* Timeline */}
         <h3 className="text-2xl font-semibold px-4 md:px-8">Surge Application Timeline (Spring 2024)</h3>

@@ -1,50 +1,36 @@
-import React, { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import React from 'react';
 
 import Typed from 'react-typed';
 import Footer from './Footer.jsx';
 
 const teamMembers = [
     {
-        name: 'Cameron Dang',
-        role: 'EECS 2025',
-        description: 'Hi, I\'m Cameron, a junior at UC Berkeley studying EECS, BioE, and design. I enjoy playing tennis, skiing, and love motorsports (F1, cars, motorcycles)!',
-        imageUrl: require('../assets/media/Team/Cameron.jpeg'),
-    },
-    {
         name: 'Jackson Zilles',
         role: 'MechE 2025',
-        description: 'Senior mechanical engineering student, interning at Tesla.',
+        description: '',
         imageUrl: require('../assets/media/Team/Jackson.jpg'),
+    },
+    {
+        name: 'Cameron Dang',
+        role: 'EECS 2025',
+        description: '',
+        imageUrl: require('../assets/media/Team/Cameron.jpeg'),
     },
     {
         name: 'Meta Zhou',
         role: 'MechE 2025',
-        description: 'lorem sidafj lasiefjasdif n;sndca iajsldifjal einas a;enfalsd ae asdlfihaseflasf iheifj dfiejafijs ifeadihais ashfliaehfsiff!',
-        imageUrl: require('../assets/media/Team/Cameron.jpeg'),
+        description: '',
+        imageUrl: require('../assets/media/Team/Blank.jpeg'),
     },
     {
         name: 'Antonio Herrera',
         role: 'MechE 2025',
-        description: 'lorem sidafj lasiefjasdif n;sndca iajsldifjal einas a;enfalsd ae asdlfihaseflasf iheifj dfiejafijs ifeadihais ashfliaehfsiff!',
-        imageUrl: require('../assets/media/Team/Cameron.jpeg'),
+        description: '',
+        imageUrl: require('../assets/media/Team/Blank.jpeg'),
     },
 ];
 
-const About = () => {
-    const location = useLocation();
-
-    useEffect(() => {
-        // Check if the location has an anchor (e.g., /about#mailing)
-        if (location.hash) {
-        const targetElement = document.getElementById(location.hash.substring(1));
-        if (targetElement) {
-            // Scroll to the target element with smooth behavior
-            targetElement.scrollIntoView({ behavior: 'smooth', block: "end"});
-        }
-        }
-    }, [location]);
-    
+const About = () => {    
     return (
         <div className="bg-slate-100 min-h-screen">
             {/* Main Content */}
@@ -63,7 +49,7 @@ const About = () => {
 
                 {/* Goals */}
                 <div className="max-h-[50vh] w-auto my-8 overflow-hidden">
-                    <img className="object-cover" src={require("../assets/media/hsfhomepic.jpeg")} alt="Concept Motorcycle"/>
+                    <img className="object-cover" src={require("../assets/media/lightning.jpeg")} alt="Lightning"/>
                 </div>
                 <div className="flex flex-col mt-20 mb-4 p-4 md:p-8">
                     <h3 className="text-center font-light mb-4">OUR PLAN</h3>
@@ -92,7 +78,7 @@ const About = () => {
                     <div className="mb-5 md:px-10">
                         <h1 className="text-center font-bold text-3xl">Meet Berkeley's fastest club.</h1>
                     </div>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 md:p-8">
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:p-8">
                         {teamMembers.map((member, index) => (
                             <div key={index} className="font-light text-center">
                                 <img
@@ -111,7 +97,7 @@ const About = () => {
                 {/* Join the community */}
                 <div className="flex flex-col items-center p-4 md:p-8">
                     <div className="md:flex md:flex-row">
-                        <div className="flex flex-col items-center justify-center md:w-2/3">
+                        <div className="flex flex-col items-center justify-center">
                             <div className="lg:flex lg:flex-row lg:justify-center mb-5 text-center font-bold">
                                 <h1 className="md:text-3xl text-2xl">Join a community of</h1>
                                 <Typed 
@@ -122,10 +108,9 @@ const About = () => {
                                     loop
                                 />
                             </div>
-                            <p className="text-xl font-light mt-4 md:px-5">
-                                We are <b className="font-bold">Surge</b>, a UC Berkeley student organization dedicated to motorcycles 
-                                ayadasd fiasdfj aslfjalsif jlajef;aljfi as;dlfja siejialsidfj sdafi iisadfjli sajifaj dasidjfasjidjf asdfilasjdf
-                                asdjlfiasidfjsadjf as flasjfj iasjfjeijfijlwadnianeiaifsijfla.
+                            <p className="text-xl font-light mt-4 md:px-5 lg:mx-40 md:mx-20">
+                                We are <b className="font-bold">Surge</b>, a UC Berkeley student organization dedicated to exploring the realm of energy and uniting it with 
+                                a passion for motorcycles. Join us on our journey to research, adapt, and advance electric powertrains, aerodynamics, and much more.
                             </p>
                             <div className="flex justify-center my-5">
                                 <div className="h-fit w-fit rounded-full bg-gradient-to-r from-blue-700 via-purple-700 to-fuchsia-700 hover:from-blue-400 hover:via-purple-400 hover:to-fuchsia-400 p-1">
@@ -134,9 +119,6 @@ const About = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div id="mailing" className="md:order-last my-8 md:w-1/2">
-                            <iframe title="Mailing List" src="https://airtable.com/embed/appbckQhXl5Sl54J1/pagEtHgEC0HLJ77Pe/form" frameborder="0" onmousewheel="" width="100%" height="533" className="bg-transparent border-1;"></iframe>
                         </div>
                     </div>
                 </div>

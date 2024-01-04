@@ -24,7 +24,7 @@ const Contact = () => {
                 Please fill out the form (it may take a second to load) or email us at surge@berkeley.edu.
               </p>
               <h2 className="text-3xl my-4">For mailing list</h2>
-              <a href="/about#mailing" className="text-black bg-amber-400 hover:bg-amber-600 font-medium rounded-lg text-lg px-4 py-2 text-center">Mailing List</a>
+              <a href="/#mailing" className="text-black bg-amber-400 hover:bg-amber-600 font-medium rounded-lg text-lg px-4 py-2 text-center">Mailing List</a>
               <h2 className="text-3xl my-4">For student applications</h2>
               <a href="/apply" className="text-black bg-amber-400 hover:bg-amber-600 font-medium rounded-lg text-lg px-4 py-2 text-center">Apply</a>
               <h2 className="text-3xl my-4">For sponsorship or donation inquiries</h2>
