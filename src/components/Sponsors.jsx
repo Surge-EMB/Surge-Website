@@ -42,7 +42,7 @@ const Sponsors = () => {
 
                 {/* Goals */}
                 <div className="flex justify-center max-h-[50vh] w-auto my-8 overflow-hidden">
-                    <img className="object-fill blur-md" src={require("../assets/media/motorcycle_render_zout.jpg")} alt="Concept Motorcycle"/>
+                    <img className="object-fill blur-sm" src={require("../assets/media/motorcycle_render_zout.jpg")} alt="Concept Motorcycle"/>
                 </div>
                 <div className="flex flex-col mt-20 mb-4 p-4 md:p-8">
                     <div className="md:flex md:flex-row md:items-center md:justify-center py-4">
@@ -55,7 +55,7 @@ const Sponsors = () => {
                             </p>
                         </div>
                         <div id="sponsor" className="md:w-1/2 my-8">
-                            <iframe title="General Inquiry Form" src="https://airtable.com/embed/appbckQhXl5Sl54J1/pagUbBeFxlj4eHOqV/form" frameborder="0" onmousewheel="" width="100%" height="533" className="bg-transparent border-1;"></iframe>
+                            <iframe title="General Inquiry Form" src="https://airtable.com/embed/appbckQhXl5Sl54J1/pagUbBeFxlj4eHOqV/form" width="100%" height="533" className="bg-transparent border-1;"></iframe>
                         </div>
                     </div>
                     

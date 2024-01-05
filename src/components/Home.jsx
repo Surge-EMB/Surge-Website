@@ -88,7 +88,7 @@ const Home = () => {
 
             {/* Header */}
             <header 
-                className="min-h-screen bg-cover bg-center bg-fixed flex items-center justify-center"
+                className="min-h-screen bg-cover bg-center md:bg-fixed bg-scroll flex items-center justify-center"
                 style={{ backgroundImage: `url(${backgroundImage})` }}
             >
                 {/* Dark Overlay */}
@@ -193,7 +193,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div id="mailing" className="md:order-last my-8 md:w-1/2">
-                            <iframe title="Mailing List" src="https://airtable.com/embed/appbckQhXl5Sl54J1/pagEtHgEC0HLJ77Pe/form" frameborder="0" onmousewheel="" width="100%" height="533" className="bg-transparent border-1;"></iframe>
+                            <iframe title="Mailing List" src="https://airtable.com/embed/appbckQhXl5Sl54J1/pagEtHgEC0HLJ77Pe/form" width="100%" height="533" className="bg-transparent border-1;"></iframe>
                         </div>
                     </div>
                 </div>

@@ -24,7 +24,7 @@ const Navbar = () => {
                         type="button"
                         className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg hover:bg-slate-100 focus:ring-2 focus:ring-slate-300 transition-all duration-400 ease-in-out"
                         onClick={handleClick}
-                    >{!nav ? <Bars3Icon classNameName="h-5 w-5" /> : <XMarkIcon className="h-5 w-5"></XMarkIcon>}
+                    >{!nav ? <Bars3Icon className="h-5 w-5" /> : <XMarkIcon className="h-5 w-5"></XMarkIcon>}
                     </button>
                 </div>
             </div>

@@ -31,7 +31,7 @@ const Contact = () => {
               <a href="/sponsors" className="text-black bg-amber-400 hover:bg-amber-600 font-medium rounded-lg text-lg px-4 py-2 text-center">Sponsors</a>
             </div>
             <div className="md:order-last my-8">
-                <iframe title="General Inquiry Form" src="https://airtable.com/embed/appbckQhXl5Sl54J1/pagEIfAzOK6TWvgqO/form" frameborder="0" onmousewheel="" width="100%" height="533" className="bg-transparent border-1;"></iframe>
+                <iframe title="General Inquiry Form" src="https://airtable.com/embed/appbckQhXl5Sl54J1/pagEIfAzOK6TWvgqO/form" width="100%" height="533" className="bg-transparent border-1;"></iframe>
             </div>
           </div>
         </div>
