@@ -7,13 +7,13 @@ const teamMembers = [
     {
         name: 'Jackson Zilles',
         role: 'MechE 2025',
-        description: '',
+        description: 'Founder, senior mechanical engineering student at UC Berkeley, currently interning at Tesla',
         imageUrl: require('../assets/media/Team/Jackson.jpg'),
     },
     {
         name: 'Cameron Dang',
         role: 'EECS 2025',
-        description: '',
+        description: 'Hi, I\'m Cameron, a junior at UC Berkeley studying EECS, BioE, and design. I enjoy playing tennis, skiing, and love motorsports (from F1 to GT to motorcycles)!',
         imageUrl: require('../assets/media/Team/Cameron.jpeg'),
     },
     {
@@ -25,8 +25,8 @@ const teamMembers = [
     {
         name: 'Antonio Herrera',
         role: 'MechE 2025',
-        description: '',
-        imageUrl: require('../assets/media/Team/Blank.jpeg'),
+        description: 'Hey everyone! I am a junior majoring in Mechanical Engineering and am currently interning at Electric Hydrogen as a Mechanical Design Engineer. Outside of school and work, I work on developing structural components on the next-generation solar vehicle at CalSol as well as producing electronic dance and tech house music on the side. Hit me up with any song recs!',
+        imageUrl: require('../assets/media/Team/Antonio.jpg'),
     },
 ];
 
