@@ -22,8 +22,8 @@ const teamMembers = [
     {
         name: 'Meta Zhou',
         role: 'MechE 2025',
-        description: '',
-        imageUrl: require('../assets/media/Team/Blank.jpeg'),
+        description: 'Hi! I\'m Meta (rhymes with theta) and I\'m a junior at UC Berkeley studying Mechanical Engineering and Design. Other than that, I like painting, spin classes, and matcha lattes - I\'ve been on a mission to find the best matcha in Berkeley.',
+        imageUrl: require('../assets/media/Team/Meta.jpg'),
     },
     {
         name: 'Antonio Herrera',
