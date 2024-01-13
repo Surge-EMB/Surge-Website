@@ -10,7 +10,7 @@ const teamMembers = [
     {
         name: 'Jackson Zilles',
         role: 'MechE 2025',
-        description: 'Founder, senior mechanical engineering student at UC Berkeley, currently interning at Tesla',
+        description: 'Hi, I\'m Jackson, the founder of Surge and a senior mechanical engineering student at UC Berkeley. Outside of school I love surfing,climbing, and of course motorcycles. I\'m currently completing a mechanical engineering internship at Tesla.',
         imageUrl: require('../assets/media/Team/Jackson.jpg'),
     },
     {
