@@ -117,10 +117,10 @@ const Home = () => {
                     </RevealOnScroll>
                     <div className="md:px-10">
                         <RevealOnScroll>
-                            <h1 className="md:text-center font-bold text-6xl py-2">Energy is the future.</h1>
+                            <h1 className="text-center font-bold text-6xl py-2">Energy is the future.</h1>
                         </RevealOnScroll>
                         <RevealOnScroll>
-                            <p className="text-left md:text-center text-2xl font-light mt-4">
+                            <p className="text-center text-2xl font-light mt-4">
                                 Empowering innovation, one race at a time. Engineering the future of electric motorcycles.
                             </p>
                         </RevealOnScroll>

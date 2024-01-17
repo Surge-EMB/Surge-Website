@@ -17,14 +17,16 @@ const Navbar = () => {
             ${nav ? 'h-screen md:pt-10' : 'h-20 md:top-10 md:left-1/2 md:h-fit md:transform md:-translate-x-1/2 md:w-3/4 md:rounded-lg'}`}>
             <div className="max-w-screen-xl flex flex-wrap justify-between mx-auto p-4">
                 <a href="/" className="flex items-center">
+                    <img className="h-10 w-10 mr-3" src={require("../assets/media/surgelogo.jpg")} alt="Surge Logo"/>
                     <span className="self-center text-3xl text-white font-semibold whitespace-nowrap">Surge</span>
                 </a>
+
                 <div className="flex md:order-2">
                     <button
                         type="button"
                         className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg hover:bg-slate-100 focus:ring-2 focus:ring-slate-300 transition-all duration-400 ease-in-out"
                         onClick={handleClick}
-                    >{!nav ? <Bars3Icon className="h-5 w-5" /> : <XMarkIcon className="h-5 w-5"></XMarkIcon>}
+                    >{!nav ? <Bars3Icon className="h-7 w-7" /> : <XMarkIcon className="h-5 w-5"></XMarkIcon>}
                     </button>
                 </div>
             </div>
