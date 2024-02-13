@@ -15,6 +15,12 @@ const programData = [
         description: '',
         link: 'https://calendly.com/cameronvdang',  
     },
+    {
+        title: 'Coffe Chat',
+        date: 'Meta Zhou',
+        description: '',
+        link: 'https://calendly.com/metazhou/30min',
+    }, 
 ];
 
 const Apply = () => {
