@@ -44,7 +44,7 @@ const Apply = () => {
             <a href="/#mailing" className="text-black bg-amber-400 hover:bg-amber-600 font-medium rounded-lg text-lg px-4 py-2 text-center">Mailing List</a>
         </div>
         {/* Timeline */}
-        <h3 className="text-2xl font-semibold px-4 md:px-8">Surge Application Information (Spring 2024)</h3>
+        <h3 className="text-2xl font-semibold px-4 md:px-8">Surge Application Information (Fall 2024)</h3>
         <h4 className="text-xl font-semibold px-4 md:px-8">Deadline: TBD</h4>
         <div className="flex flex-col my-4 px-4 md:px-8">
           <div className="grid grid-cols-1 gap-6">

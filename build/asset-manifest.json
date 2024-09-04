@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.d2f476a5.css",
-    "main.js": "/static/js/main.e3154d37.js",
-    "static/js/787.0c19f238.chunk.js": "/static/js/787.0c19f238.chunk.js",
+    "main.css": "/static/css/main.3f9b1a15.css",
+    "main.js": "/static/js/main.98fb991a.js",
+    "static/js/787.be1860fa.chunk.js": "/static/js/787.be1860fa.chunk.js",
     "static/media/unsplash_moto_1.jpeg": "/static/media/unsplash_moto_1.5f32aa7faf5b3b7a59e8.jpeg",
     "static/media/Meta.jpg": "/static/media/Meta.bb1ea6242a1897dc1992.jpg",
     "static/media/Jackson.jpg": "/static/media/Jackson.eeffe59ffe061a07ad70.jpg",
@@ -12,12 +12,12 @@
     "static/media/motorcycle_render_zout.jpg": "/static/media/motorcycle_render_zout.87594824413a1d808aed.jpg",
     "static/media/surgelogo.jpg": "/static/media/surgelogo.6b86a2220121209997e6.jpg",
     "index.html": "/index.html",
-    "main.d2f476a5.css.map": "/static/css/main.d2f476a5.css.map",
-    "main.e3154d37.js.map": "/static/js/main.e3154d37.js.map",
-    "787.0c19f238.chunk.js.map": "/static/js/787.0c19f238.chunk.js.map"
+    "main.3f9b1a15.css.map": "/static/css/main.3f9b1a15.css.map",
+    "main.98fb991a.js.map": "/static/js/main.98fb991a.js.map",
+    "787.be1860fa.chunk.js.map": "/static/js/787.be1860fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2f476a5.css",
-    "static/js/main.e3154d37.js"
+    "static/css/main.3f9b1a15.css",
+    "static/js/main.98fb991a.js"
   ]
 }
