@@ -7,25 +7,25 @@ const teamMembers = [
     {
         name: 'Jackson Zilles',
         role: 'MechE 2025',
-        description: 'Hi, I\'m Jackson, the founder of Surge and a senior mechanical engineering student at UC Berkeley. Outside of school I love surfing, climbing, and of course motorcycles. I\'m currently completing a mechanical engineering internship at Tesla.',
+        description: 'Hi, I\'m Jackson, the founder of Surge and a senior mechanical engineering student at UC Berkeley. Outside of school I love surfing, climbing, and of course motorcycles. I\'m previously completing a mechanical engineering internship at Tesla.',
         imageUrl: require('../assets/media/Team/Jackson.jpg'),
     },
     {
         name: 'Cameron Dang',
         role: 'EECS 2025',
-        description: 'Hi, I\'m Cameron, a junior at UC Berkeley studying EECS, BioE, and design. I enjoy playing tennis, skiing, and love motorsports (from F1 to GT to motorcycles)!',
+        description: 'Hi, I\'m Cameron, a senior at UC Berkeley studying EECS, BioE, and design. I enjoy playing tennis, skiing, and love motorsports (from F1 to GT to motorcycles)!',
         imageUrl: require('../assets/media/Team/Cameron.jpeg'),
     },
     {
         name: 'Meta Zhou',
         role: 'MechE 2025',
-        description: 'Hi! I\'m Meta (rhymes with theta) and I\'m a junior at UC Berkeley studying Mechanical Engineering and Design. Other than that, I like painting, spin classes, and matcha lattes - I\'ve been on a mission to find the best matcha in Berkeley.',
+        description: 'Hi! I\'m Meta (rhymes with theta) and I\'m a senior at UC Berkeley studying Mechanical Engineering and Design. Other than that, I like painting, spin classes, and matcha lattes - I\'ve been on a mission to find the best matcha in Berkeley.',
         imageUrl: require('../assets/media/Team/Meta.jpg'),
     },
     {
         name: 'Antonio Herrera',
         role: 'MechE 2025',
-        description: 'Hey everyone! I am a junior majoring in Mechanical Engineering and am currently interning at Electric Hydrogen as a Mechanical Design Engineer. Outside of school and work, I work on developing structural components on the next-generation solar vehicle at CalSol as well as producing electronic dance and tech house music on the side. Hit me up with any song recs!',
+        description: 'Hey everyone! I am a senior majoring in Mechanical Engineering. I previously interned at Electric Hydrogen as a Mechanical Design Engineer. Outside of school and work, I work on developing structural components on the next-generation solar vehicle at CalSol as well as producing electronic dance and tech house music on the side. Hit me up with any song recs!',
         imageUrl: require('../assets/media/Team/Antonio.jpg'),
     },
 ];

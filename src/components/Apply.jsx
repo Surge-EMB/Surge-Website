@@ -38,15 +38,17 @@ const Apply = () => {
       {/* Main Content */}
       <main className="container mx-auto p-10">
 
+        
+        {/* Timeline */}
+        <h3 className="text-2xl font-semibold px-4 md:px-8">Surge Application Information (Spring 2025)</h3>
+        <h4 className="text-xl font-semibold px-4 md:px-8">Deadline: February 1, 2025</h4>
+
         {/* Form Links */}
         <div className="flex flex-row mb-2 md:p-4">
             <a target="_blank" rel="noopener noreferrer" href="https://airtable.com/appbckQhXl5Sl54J1/pagfZL0ou6RoU2BiG/form" className="text-black bg-amber-400 hover:bg-amber-600 font-medium rounded-lg text-lg mx-4 px-4 py-2 text-center">Application</a>
             <a href="/#mailing" className="text-black bg-amber-400 hover:bg-amber-600 font-medium rounded-lg text-lg px-4 py-2 text-center">Mailing List</a>
         </div>
-        {/* Timeline */}
-        <h3 className="text-2xl font-semibold px-4 md:px-8">Surge Application Information (Fall 2024)</h3>
-        <h4 className="text-xl font-semibold px-4 md:px-8">Deadline: TBD</h4>
-        <div className="flex flex-col my-4 px-4 md:px-8">
+        {/* <div className="flex flex-col my-4 px-4 md:px-8">
           <div className="grid grid-cols-1 gap-6">
             {programData.map((program, index) => (
                 <div key={index} className="bg-gradient-to-r from-blue-700 via-purple-700 to-fuchsia-700 hover:from-blue-400 hover:via-purple-400 hover:to-fuchsia-400 p-1 shadow-lg rounded-lg overflow-hidden flex flex-col">
@@ -61,7 +63,7 @@ const Apply = () => {
                 </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </main>
 
       {/* Footer */}
