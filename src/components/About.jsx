@@ -5,9 +5,9 @@ import Footer from './Footer.jsx';
 
 const teamMembers = [
     {
-        name: 'Jackson Zilles',
-        role: 'MechE 2025',
-        description: 'Hi, I\'m Jackson, the founder of Surge and a senior mechanical engineering student at UC Berkeley. Outside of school I love surfing, climbing, and of course motorcycles. I\'m previously completing a mechanical engineering internship at Tesla.',
+        name: 'Anthony Miceli',
+        role: 'President',
+        description: 'EECS 2027 - Intern at Jaguar Land Rover - Researcher at BSAC',
         imageUrl: require('../assets/media/Team/Jackson.jpg'),
     },
     {
