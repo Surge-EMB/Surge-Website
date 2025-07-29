@@ -28,6 +28,12 @@ const teamMembers = [
         description: 'Hey everyone! I am a senior majoring in Mechanical Engineering. I previously interned at Electric Hydrogen as a Mechanical Design Engineer. Outside of school and work, I work on developing structural components on the next-generation solar vehicle at CalSol as well as producing electronic dance and tech house music on the side. Hit me up with any song recs!',
         imageUrl: require('../assets/media/Team/Antonio.jpg'),
     },
+    {
+        name: 'Robert Tian',
+        role: 'Low Voltage Electronics Lead',
+        description: 'Hey, I\'m Robert, a third-year studying EECS and Data Science. Riding and building bikes are cool.',
+        imageUrl: require('../assets/media/Team/Robert.jpeg'),s
+    }
 ];
 
 const About = () => {    
@@ -78,7 +84,7 @@ const About = () => {
                     <div className="mb-5 md:px-10">
                         <h1 className="text-center font-bold text-3xl">Meet Berkeley's fastest club.</h1>
                     </div>
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:p-8">
+                    <div className="grid grid-cols-2 md:grid-cols-5 gap-4 md:p-8">
                         {teamMembers.map((member, index) => (
                             <div key={index} className="font-light text-center">
                                 <img
