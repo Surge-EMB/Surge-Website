@@ -32,7 +32,7 @@ const teamMembers = [
         name: 'Robert Tian',
         role: 'Low Voltage Electronics Lead',
         description: 'Hey, I\'m Robert, a third-year studying EECS and Data Science. Riding and building bikes are cool.',
-        imageUrl: require('../assets/media/Team/Robert.jpeg'),s
+        imageUrl: require('../assets/media/Team/Robert.jpeg'),
     }
 ];
 
