@@ -8,7 +8,7 @@ const teamMembers = [
         name: 'Anthony Miceli',
         role: 'President',
         description: 'EECS 2027 - Intern at Jaguar Land Rover - Researcher at BSAC',
-        imageUrl: require('../assets/media/Team/Jackson.jpg'),
+        imageUrl: require('../assets/media/Team/Anthony.jpg'),
     },
     {
         name: 'Cameron Dang',
