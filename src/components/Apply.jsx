@@ -2,26 +2,26 @@ import React from 'react';
 import Footer from './Footer.jsx';
 
 // Sample data for program cards
-const programData = [
-    {
-        title: 'Coffee Chat',
-        date: 'Jackson Zilles',
-        description: '',
-        link: 'https://calendly.com/jmzilles',  
-    },
-    {
-        title: 'Coffee Chat',
-        date: 'Cameron Dang',
-        description: '',
-        link: 'https://calendly.com/cameronvdang',  
-    },
-    {
-        title: 'Coffe Chat',
-        date: 'Meta Zhou',
-        description: '',
-        link: 'https://calendly.com/metazhou/30min',
-    }, 
-];
+// const programData = [
+//     {
+//         title: 'Coffee Chat',
+//         date: 'Jackson Zilles',
+//         description: '',
+//         link: 'https://calendly.com/jmzilles',  
+//     },
+//     {
+//         title: 'Coffee Chat',
+//         date: 'Cameron Dang',
+//         description: '',
+//         link: 'https://calendly.com/cameronvdang',  
+//     },
+//     {
+//         title: 'Coffe Chat',
+//         date: 'Meta Zhou',
+//         description: '',
+//         link: 'https://calendly.com/metazhou/30min',
+//     }, 
+// ];
 
 const Apply = () => {
   return (
