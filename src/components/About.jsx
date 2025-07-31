@@ -14,7 +14,7 @@ const teamMembers = [
         name: 'Alain Garnica',
         role: 'Powertrain Lead',
         description: 'Hi, I\'m Alain, a sophomore studying mechanical engineering. I enjoy making all kinds of things from 3D printing to woodworking, and I\'m always down to start an ambitious project.',
-        imageUrl: require('../assets/media/Team/Alain.jpeg'),
+        imageUrl: require('../assets/media/Team/Alain.jpg'),
     },
     {
         name: 'Meta Zhou',
