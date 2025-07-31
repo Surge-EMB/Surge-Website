@@ -11,10 +11,10 @@ const teamMembers = [
         imageUrl: require('../assets/media/Team/Anthony.jpg'),
     },
     {
-        name: 'Cameron Dang',
-        role: 'EECS 2025',
-        description: 'Hi, I\'m Cameron, a senior at UC Berkeley studying EECS, BioE, and design. I enjoy playing tennis, skiing, and love motorsports (from F1 to GT to motorcycles)!',
-        imageUrl: require('../assets/media/Team/Cameron.jpeg'),
+        name: 'Alain Garnica',
+        role: 'Powertrain Lead',
+        description: 'Hi, I\'m Alain, a sophomore studying mechanical engineering. I enjoy making all kinds of things from 3D printing to woodworking, and I\'m always down to start an ambitious project.',
+        imageUrl: require('../assets/media/Team/Alain.jpeg'),
     },
     {
         name: 'Meta Zhou',
