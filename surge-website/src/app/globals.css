@@ -1,26 +1,178 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* ================================
+     COLOR TOKENS
+     ================================ */
+  
+  /* Base surfaces */
+  --color-surface: #0a0a0a;
+  --color-surface-raised: #141414;
+  --color-surface-overlay: #1a1a1a;
+  
+  /* Borders */
+  --color-border: #262626;
+  --color-border-subtle: #1a1a1a;
+  --color-border-strong: #404040;
+  
+  /* Text hierarchy */
+  --color-text-primary: #fafafa;
+  --color-text-secondary: #a3a3a3;
+  --color-text-muted: #525252;
+  
+  /* Accent - electric blue */
+  --color-accent: #0ea5e9;
+  --color-accent-hover: #38bdf8;
+  --color-accent-muted: #0c4a6e;
+  
+  /* Semantic */
+  --color-success: #22c55e;
+  --color-warning: #eab308;
+  --color-error: #ef4444;
+
+  /* Color Scheme */
+  --color-text-blue: #1f468c;
+  --color-text-yellow: #ffbf00;
+  
+
+  /* ================================
+     TYPOGRAPHY
+     ================================ */
+  
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: var(--font-chamfer), "Chamfer Gothic Ludlow", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  /* Type scale */
+  --text-display-xxl: 20rem;
+  --text-display-xxl--line-height: 1;
+  --text-display-xxl--letter-spacing: 0.05em;
+
+  --text-display-xl: 15rem;
+  --text-display-xl--line-height: 1;
+  --text-display-xl--letter-spacing: -0.02em;
+  
+  --text-display-lg: 10rem;
+  --text-display-lg--line-height: 1.1;
+  --text-display-lg--letter-spacing: -0.02em;
+  
+  --text-display: 7.5rem;
+  --text-display--line-height: 1.1;
+  --text-display--letter-spacing: -0.01em;
+  
+  --text-heading: 1.875rem;
+  --text-heading--line-height: 1.2;
+  
+  --text-subheading: 1.25rem;
+  --text-subheading--line-height: 1.4;
+  
+  --text-body: 1rem;
+  --text-body--line-height: 1.6;
+  
+  --text-small: 0.875rem;
+  --text-small--line-height: 1.5;
+  
+  --text-caption: 0.75rem;
+  --text-caption--line-height: 1.4;
+
+  /* ================================
+     SPACING
+     ================================ */
+  
+  --spacing-page: 6rem;
+  --spacing-section: 5rem;
+  --spacing-gutter: 1.5rem;
+
+  /* ================================
+     SIZING
+     ================================ */
+  
+  --max-width-content: 72rem;
+  --max-width-narrow: 48rem;
+
+  /* ================================
+     BORDER RADIUS
+     ================================ */
+  
+  --radius-card: 0.75rem;
+  --radius-button: 0.5rem;
+  --radius-chip: 9999px;
+
+  /* ================================
+     ANIMATIONS
+     ================================ */
+  
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --duration-slow: 400ms;
+  
+  --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  
+  --animate-fade-in: fade-in 0.5s ease-out forwards;
+  --animate-pulse-glow: pulse-glow 2s ease-in-out infinite;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(14, 165, 233, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(14, 165, 233, 0.6);
+  }
+}
+
+/* ================================
+   BASE STYLES
+   ================================ */
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-surface);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Better focus styles */
+*:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--color-surface), 0 0 0 4px var(--color-accent);
+}
+
+/* ================================
+   UTILITY CLASSES
+   ================================ */
+
+@utility page-container {
+  padding-top: var(--spacing-page);
+  padding-left: var(--spacing-gutter);
+  padding-right: var(--spacing-gutter);
+  max-width: var(--max-width-content);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@utility page-container-narrow {
+  padding-top: var(--spacing-page);
+  padding-left: var(--spacing-gutter);
+  padding-right: var(--spacing-gutter);
+  max-width: var(--max-width-narrow);
+  margin-left: auto;
+  margin-right: auto;
 }
