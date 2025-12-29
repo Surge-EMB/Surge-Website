@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import MainButton from "../../components/MainButton";
+import TeamMember from "@/src/components/TeamMember";
 
 export default function PlaygroundPage() {
   const [activeTab, setActiveTab] = useState("colors");
@@ -273,6 +274,12 @@ export default function PlaygroundPage() {
                 </p>
               </div>
             </div>
+            <TeamMember
+              name="Colin O'Brien"
+              role="Electrical Lead"
+              linkedIn="https://www.linkedin.com/in/colin-o-brien-bb27a1214/"
+              imageSrc="/images/team/colinobrien.jpg"
+            />
           </div>
 
           <div>
