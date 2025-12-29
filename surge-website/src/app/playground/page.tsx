@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
+import MainButton from "../../components/MainButton";
 
 export default function PlaygroundPage() {
   const [activeTab, setActiveTab] = useState("colors");
@@ -246,6 +247,7 @@ export default function PlaygroundPage() {
               <button className="bg-surface-raised text-text-primary hover:bg-surface-overlay px-6 py-3 rounded-button transition-colors duration-normal">
                 Secondary Button
               </button>
+              <MainButton>Action Button</MainButton>
             </div>
           </div>
 
