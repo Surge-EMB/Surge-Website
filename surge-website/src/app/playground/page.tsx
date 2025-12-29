@@ -48,7 +48,6 @@ export default function PlaygroundPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <ColorSwatch name="Blue" className="bg-text-blue" />
               <ColorSwatch name="Yellow" className="bg-text-yellow" />
-              <ColorSwatch name="surface-overlay" className="bg-surface-overlay" />
             </div>
           </div>
 
@@ -123,14 +122,11 @@ export default function PlaygroundPage() {
               <TypeSample name="subheading" className="text-subheading">
                 Subheading
               </TypeSample>
-              <TypeSample name="body" className="text-body">
+              <TypeSample name="body" className="text-body font-body italic">
                 Body text for paragraphs and general content
               </TypeSample>
-              <TypeSample name="small" className="text-small">
-                Small text for secondary information
-              </TypeSample>
-              <TypeSample name="caption" className="text-caption">
-                Caption text for labels and hints
+              <TypeSample name="caption" className="text-small font-body">
+                Caption text for labeling images and headshots
               </TypeSample>
             </div>
           </div>

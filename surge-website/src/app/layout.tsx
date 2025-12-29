@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
-import { chamferGothic } from "../fonts/fonts";
+import { chamferGothic, trebuc } from "../fonts/fonts";
 import "./globals.css";
 
 const inter = Inter({
@@ -26,7 +26,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable} ${chamferGothic.variable}`}>
+    <html lang="en" className={`
+      ${inter.variable}
+      ${jetbrainsMono.variable}
+      ${chamferGothic.variable}
+      ${trebuc.variable}
+      `}>
       <body>{children}</body>
     </html>
   );
