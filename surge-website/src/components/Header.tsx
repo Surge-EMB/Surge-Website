@@ -35,7 +35,7 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-2 lg:gap-4">
+          <nav className="hidden md:flex items-center gap-2 lg:gap-10">
             {navLinks.map((link) => (
               <NavLink key={link.href} href={link.href}>
                 {link.label}
@@ -100,18 +100,15 @@ interface NavLinkProps {
 }
 
 function NavLink({ href, children }: NavLinkProps) {
-  // You can add logic here to detect active route and show border
-  const isActive = false; // Replace with actual route detection
+  const isActive = false;
 
   return (
     <Link
       href={href}
       className={`
         font-display text-display-xl lg:text-display text-text-blue uppercase
-        px-4 py-2
-        hover:border-4 hover:border-text-blue
-        transition-all duration-normal
-        ${isActive ? "border-4 border-text-blue" : "border-4 border-transparent"}
+        hover:scale-110
+        transition-transform duration-normal
       `}
     >
       {children}
