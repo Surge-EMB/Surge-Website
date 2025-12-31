@@ -19,7 +19,7 @@ export default function Header() {
   return (
     <header className="bg-text-yellow border-y-4 border-text-blue">
       <div className="max-w-7xl mx-auto px-4">
-        <div className="flex items-center justify-between h-20 md:h-24">
+        <div className="flex items-center justify-between h-20 md:h-30">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             {/* Replace with your actual logo */}
@@ -29,7 +29,7 @@ export default function Header() {
                 alt="SURGE Electric Motorcycles at Berkeley"
                 width={150}
                 height={60}
-                className="h-12 md:h-16 w-auto"
+                className="h-20 md:h-27 w-auto"
               />
             </div>
           </Link>
@@ -107,7 +107,7 @@ function NavLink({ href, children }: NavLinkProps) {
     <Link
       href={href}
       className={`
-        font-display text-2xl lg:text-3xl text-text-blue uppercase
+        font-display text-display-xl lg:text-display text-text-blue uppercase
         px-4 py-2
         hover:border-4 hover:border-text-blue
         transition-all duration-normal
