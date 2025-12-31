@@ -275,10 +275,25 @@ export default function PlaygroundPage() {
               </div>
             </div>
             <TeamMember
-              name="Colin O'Brien"
+              name="Small Colin O'Brien"
               role="Electrical Lead"
               linkedIn="https://www.linkedin.com/in/colin-o-brien-bb27a1214/"
               imageSrc="/images/team/colinobrien.jpeg"
+              size="sm"
+            />
+            <TeamMember
+              name="Medium Colin O'Brien"
+              role="Electrical Lead"
+              linkedIn="https://www.linkedin.com/in/colin-o-brien-bb27a1214/"
+              imageSrc="/images/team/colinobrien.jpeg"
+              size="md"
+            />
+            <TeamMember
+              name="Large Colin O'Brien"
+              role="Electrical Lead"
+              linkedIn="https://www.linkedin.com/in/colin-o-brien-bb27a1214/"
+              imageSrc="/images/team/colinobrien.jpeg"
+              size="lg"
             />
           </div>
 

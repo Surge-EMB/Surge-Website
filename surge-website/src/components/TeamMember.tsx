@@ -14,20 +14,20 @@ const sizeClasses = {
   sm: {
     circle: "w-32 h-32",
     image: 128,
-    name: "text-2xl",
-    text: "text-base",
+    name: "text-heading-md font-display",
+    text: "text-small font-body",
   },
   md: {
     circle: "w-48 h-48",
     image: 192,
-    name: "text-3xl",
-    text: "text-lg",
+    name: "text-heading-lg font-display",
+    text: "text-body font-body",
   },
   lg: {
     circle: "w-64 h-64",
     image: 256,
-    name: "text-4xl",
-    text: "text-xl",
+    name: "text-heading-xl font-display",
+    text: "text-subheading font-body",
   },
 };
 
@@ -54,11 +54,11 @@ export default function TeamMember({
         )}
       </div>
 
-      <h3 className={`font-display ${styles.name}`}>
+      <h3 className={`${styles.name}`}>
         {name}
       </h3>
 
-      <p className={`font-body ${styles.text}`}>
+      <p className={`${styles.text}`}>
         {role}
       </p>
 
