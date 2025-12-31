@@ -128,7 +128,7 @@ function MobileNavLink({ href, children, onClick }: MobileNavLinkProps) {
     <Link
       href={href}
       onClick={onClick}
-      className="font-display text-2xl text-text-blue uppercase py-2 px-6 hover:bg-text-blue hover:text-text-yellow transition-colors duration-normal"
+      className="font-display text-display text-text-blue uppercase py-0 px-6 hover:bg-text-blue hover:text-text-yellow transition-colors duration-normal"
     >
       {children}
     </Link>
