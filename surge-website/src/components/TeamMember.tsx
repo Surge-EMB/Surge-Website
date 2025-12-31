@@ -54,11 +54,11 @@ export default function TeamMember({
         )}
       </div>
 
-      <h3 className={`font-display ${styles.name} text-text-primary mt-6`}>
+      <h3 className={`font-display ${styles.name}`}>
         {name}
       </h3>
 
-      <p className={`font-body ${styles.text} text-text-primary mt-1`}>
+      <p className={`font-body ${styles.text}`}>
         {role}
       </p>
 

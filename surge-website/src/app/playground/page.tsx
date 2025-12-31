@@ -278,7 +278,7 @@ export default function PlaygroundPage() {
               name="Colin O'Brien"
               role="Electrical Lead"
               linkedIn="https://www.linkedin.com/in/colin-o-brien-bb27a1214/"
-              imageSrc="/images/team/colinobrien.jpg"
+              imageSrc="/images/team/colinobrien.jpeg"
             />
           </div>
 
