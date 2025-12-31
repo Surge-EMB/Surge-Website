@@ -4,6 +4,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import MainButton from "../../components/MainButton";
 import TeamMember from "@/src/components/TeamMember";
+import ImageBlock from "@/src/components/ImageBlock";
 
 export default function PlaygroundPage() {
   const [activeTab, setActiveTab] = useState("colors");
@@ -352,6 +353,11 @@ export default function PlaygroundPage() {
                 />
               </div>
             </div>
+          </div>
+
+          <div>
+            <h2 className="text-heading mb-6">Images</h2> 
+            <ImageBlock src="/images/bikePlaceholder.png" />
           </div>
         </section>
       )}
