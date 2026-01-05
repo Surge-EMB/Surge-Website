@@ -13,7 +13,7 @@ export default function JoinPage() {
             
             {/* Left column - Text content (2/3) */}
             <div className="lg:col-span-2">
-            <h1 className="font-display text-display-xl text-text-blue italic tracking-[-0.01em] leading-50">
+            <h1 className="font-display text-display leading-none md:text-display-lg lg:text-display-xl text-text-blue italic tracking-[-0.01em] leading-50">
                 Ride the Lightning.
                 <br />
                 Join Surge.
