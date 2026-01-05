@@ -21,7 +21,7 @@ export default function MainButton({
       className={`
         bg-text-yellow text-text-blue 
         hover:bg-text-blue hover:text-text-yellow hover:border-text-yellow
-        font-display text-display-xl uppercase tracking-wide
+        font-display text-display uppercase tracking-wide
         px-8 py-4 rounded-none border-10 border-text-blue 
         transition-colors duration-normal
         ${className}

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import { chamferGothic, trebuc } from "../fonts/fonts";
 import Header from "@/src/components/Header"
+import Footer from "../components/Footer";
 import "./globals.css";
 
 const inter = Inter({
@@ -33,7 +34,8 @@ export default function RootLayout({
     >
       <body>
         <Header />
-        <main>{children}</main>
+        <main className="pt-20 md:pt-30">{children}</main>
+        <Footer />
       </body>
     </html>
   );

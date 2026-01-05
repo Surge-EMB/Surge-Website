@@ -6,7 +6,6 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
-  { href: "/", label: "Home" },
   { href: "/team", label: "Team" },
   { href: "/bikes", label: "Bikes" },
   { href: "/sponsors", label: "Sponsors" },
@@ -17,7 +16,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-text-yellow border-y-4 border-text-blue">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-text-yellow border-y-6 border-text-blue">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-20 md:h-30">
           {/* Logo */}
