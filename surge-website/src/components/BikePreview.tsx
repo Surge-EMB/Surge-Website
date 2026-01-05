@@ -21,7 +21,7 @@ const BikePreview: React.FC<BikePreviewProps> = ({
       <div className="group flex border-y-6 border-text-yellow cursor-pointer overflow-hidden">
         {/* Title Section */}
         <div className="bg-text-blue flex items-center px-8 md:px-12 py-8 md:py-12 min-w-[40%] md:min-w-[50%]">
-          <h2 className="text-text-yellow text-center md:text-display-xl lg:text-display-lg font-display">
+          <h2 className="text-text-yellow text-center text-heading-lg lg:text-display-lg font-display">
             {title}
           </h2>
         </div>

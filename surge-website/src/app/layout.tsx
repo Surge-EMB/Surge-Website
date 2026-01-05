@@ -32,7 +32,7 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${jetbrainsMono.variable} ${chamferGothic.variable} ${trebuc.variable}`}
     >
-      <body className="bg-white">
+      <body className="bg-white min-h-screen">
         <Header />
         <main className="pt-20 md:pt-30">{children}</main>
         <Footer />
