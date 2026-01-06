@@ -13,7 +13,7 @@ export default function SponsorPage() {
             <h2 className="text-text-blue text-display md:text-dispaly-lg font-display italic mb-6">
               Interested In Sponsoring?
             </h2>
-            <p className="font-body text-text-blue text-subheading leading-relaxed">
+            <p className="font-body text-black text-subheading leading-relaxed">
               Info for sponsors. Lorem ipsum dolor sit amet, consectetuer 
               adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
               laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad 
@@ -36,7 +36,7 @@ export default function SponsorPage() {
             <h2 className="text-text-blue text-display md:text-dispaly-lg font-display italic mb-6">
               Help Keep the Power On.
             </h2>
-            <p className="font-body text-text-blue text-subheading leading-relaxed">
+            <p className="font-body text-black text-subheading leading-relaxed">
               Make a direct donation to our team. Lorem ipsum dolor sit amet, 
               consectetuer adipiscing elit, sed diam nonummy nibh euismod 
               tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi 

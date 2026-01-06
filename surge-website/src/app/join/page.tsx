@@ -19,7 +19,7 @@ export default function JoinPage() {
                 Join Surge.
             </h1>
 
-            <p className="font-body italic text-text-blue text-lg mt-8 max-w-xl">
+            <p className="font-body text-black text-subheading text-lg mt-8 max-w-xl">
                 Surge is made up of students like you. Join Now. Lorem ipsum
                 dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
                 nibh euismod tincidunt ut laoreet dolore magna aliquam erat

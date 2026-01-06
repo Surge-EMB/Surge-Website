@@ -34,7 +34,7 @@ export default function TeamPage() {
     <div className="min-h-screen bg-white">
       {/* Executive Board Section */}
       <section className="py-12 px-8 lg:border-y-6 border-text-yellow">
-        <h1 className="text-display md:text-display-lg font-display text-text-blue mb-12">
+        <h1 className="text-display md:text-display font-display text-text-blue mb-12">
           Executive Board
         </h1>
         <div className="flex justify-center gap-16 flex-wrap text-black">
@@ -44,7 +44,7 @@ export default function TeamPage() {
               name={member.name}
               role={member.role}
               linkedIn={member.linkedIn}
-              size="lg"
+              size="md"
             />
           ))}
         </div>
@@ -59,7 +59,7 @@ export default function TeamPage() {
               Electrical
             </h2>
             <div className="flex flex-col md:flex-row gap-8 items-start">
-              <p className="text-body font-body text-black italic flex-1 max-w-sm">
+              <p className="text-subheading font-body text-black flex-1 max-w-sm">
                 This is our electrical team. It designs the high voltage and low
                 voltage systems present on our bike. An incredibly
                 interdisciplinary team, working on electrical encompasses
@@ -95,7 +95,7 @@ export default function TeamPage() {
               Mechanical
             </h2>
             <div className="flex flex-col md:flex-row gap-8 items-start">
-              <p className="text-body font-body text-black italic flex-1 max-w-sm">
+              <p className="text-subheading font-body text-black flex-1 max-w-sm">
                 This is our mechanical team. They are responsible for blah blah
                 blah etc etc. Lorem ipsum dolor sit amet, consectetuer adipiscing
                 elit, sed diam nonummy nibh
