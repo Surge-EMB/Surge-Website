@@ -34,7 +34,7 @@ export default function RootLayout({
     >
       <body className="bg-white">
         <Header />
-        <main className="pt-20 md:pt-30">{children}</main>
+        <main className="pt-20 md:pt-30 bg-white">{children}</main>
         <Footer />
       </body>
     </html>

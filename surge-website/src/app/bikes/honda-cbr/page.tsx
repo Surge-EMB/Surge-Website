@@ -2,7 +2,7 @@ import BikePageBlock from "@/src/components/BikePageBlock";
 
 export default function HondaCBRPage() {
   return (
-    <main className="container mx-auto px-4 py-8 space-y-12">
+    <main className="container mx-auto px-4 py-8 space-y-12 bg-white">
       <BikePageBlock
         variant="header"
         title="Honda CBR"
@@ -16,7 +16,7 @@ export default function HondaCBRPage() {
 
       <BikePageBlock
         variant="body"
-        title="Performance"
+        title="Power Train"
         bodyText="The heart of the CBR beats with a finely-tuned inline engine delivering smooth, linear power throughout the rev range. Advanced fuel injection and variable valve timing ensure optimal performance whether you're carving canyon roads or pushing limits on the track. Every component is engineered for maximum power-to-weight efficiency."
         images={[
           { src: "/images/honda-cbr/performance-1.jpg", alt: "CBR engine detail" },
@@ -27,7 +27,7 @@ export default function HondaCBRPage() {
 
       <BikePageBlock
         variant="body"
-        title="Technology"
+        title="Battery"
         bodyText="Cutting-edge electronics put you in complete control. Ride-by-wire throttle, multiple riding modes, traction control, and quickshifter come together to create an intuitive riding experience. The full-color TFT display keeps vital information at your fingertips while maintaining focus on the road ahead."
         images={[
           { src: "/images/honda-cbr/tech-1.jpg", alt: "CBR digital display" },
@@ -38,7 +38,7 @@ export default function HondaCBRPage() {
 
       <BikePageBlock
         variant="body"
-        title="Design"
+        title="Low Voltage"
         bodyText="Aerodynamic bodywork slices through the air with purpose, reducing drag while providing stability at speed. LED lighting illuminates the path forward with aggressive styling cues. Every curve and angle serves both form and function, resulting in a machine that looks as fast standing still as it performs in motion."
         images={[
           { src: "/images/honda-cbr/design-1.jpg", alt: "CBR aerodynamic fairing" },

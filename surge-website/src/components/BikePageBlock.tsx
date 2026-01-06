@@ -27,8 +27,8 @@ export default function BikePageBlock({
   className = "",
 }: BikePageBlockProps) {
   const titleStyles = {
-    header: "text-5xl md:text-7xl",
-    body: "text-4xl md:text-5xl",
+    header: "text-display-lg md:text-display-xl",
+    body: "text-display md:text-display-lg",
   };
 
   return (
@@ -38,11 +38,11 @@ export default function BikePageBlock({
       {/* Text content */}
       <div className="flex-1 md:max-w-[50%]">
         <h2
-          className={`${titleStyles[variant]} font-bold italic text-[#1a365d] mb-4`}
+          className={`${titleStyles[variant]} font-display text-text-blue italic mb-4`}
         >
           {title}
         </h2>
-        <p className="italic text-[#1a365d] leading-relaxed">{bodyText}</p>
+        <p className="font-body italic text-black leading-relaxed">{bodyText}</p>
       </div>
 
       {/* Gallery - appears on right on desktop, bottom on mobile */}
