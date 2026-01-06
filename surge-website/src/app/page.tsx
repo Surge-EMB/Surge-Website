@@ -49,10 +49,12 @@ export default function HomePage() {
           {/* Content Row */}
           <div className="flex flex-col lg:flex-row items-start justify-between gap-8">
             {/* Left - Stats Text */}
-            <div className="flex-1 max-w-lg">
-              <p className="text-heading-lg font-display italic text-black leading-relaxed">
-                Stats: ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam nonummy nibh euismod
+            <div className="flex-1">
+              <p className="text-heading-md font-body text-black leading-relaxed">
+                This bike is the founding project of Surge and 
+                represents a full ground-up electric motorcycle conversion. We began with a 2006 Honda 
+                CBR600RR purchased in non-running condition and stripped the platform down to the frame to 
+                redesign the drivetrain, energy system, and supporting structure around an electric architecture.
               </p>
             </div>
 
