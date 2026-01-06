@@ -1,23 +1,72 @@
-export default function Home() {
+"use client";
+
+import Image from "next/image";
+import ImageBlock from "../components/ImageBlock";
+
+export default function HomePage() {
   return (
-    <div className="page-container">
-      <section className="mb-section">
-        <h1 className="text-display-lg font-display text-text-primary">
-          Surge Electric
-        </h1>
-        <p className="text-subheading text-text-secondary mt-4">
-          Engineering the future of electric motorcycles
-        </p>
-        <button className="mt-8 bg-accent hover:bg-accent-hover text-white px-6 py-3 rounded-button transition-colors duration-normal">
-          View Our Builds
-        </button>
+    <div className="min-h-screen">
+      {/* Hero Section - Dark Blue Background */}
+      <section className="bg-text-blue py-12 px-8 lg:px-16">
+        <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-8">
+          {/* Left - Description Text */}
+          <div className="flex-1">
+            <p className="text-white text-heading-md font-body leading-relaxed">
+              Welcome to Surge, UC Berkeley’s premier electric motorcycle racing team.
+               We are a club of students tied together by a passion for designing, engineering,
+               and fabricating cutting-edge electric vehicles from the ground up. 
+            </p>
+          </div>
+
+          {/* Right - Bike Image with Border */}
+          <div className="flex-shrink-0">
+            <ImageBlock
+              src="/images/bikePlaceholder.png"
+              alt="Surge electric motorcycle"
+              width={450}
+              height={300}
+            />
+          </div>
+        </div>
       </section>
 
-      <section className="bg-surface-raised rounded-card p-6 border border-border">
-        <h2 className="text-heading">Latest Stats</h2>
-        <p className="font-mono text-small text-accent mt-2">
-          85 mph · 120 mile range · 0-60 in 3.2s
-        </p>
+      {/* Gold Divider */}
+      <div className="h-3 bg-text-yellow" />
+
+      {/* Bike Introduction Section - White Background */}
+      <section className="bg-white py-12 px-8 lg:px-16">
+        <div className="max-w-6xl mx-auto">
+          {/* Title */}
+          <div className="flex flex-col md:flex-row justify-evenly">
+            <h1 className="text-display md:text-display-xl md:mb-8 font-display text-text-blue">
+              INTRODUCING
+            </h1>
+            <h1 className="text-display md:text-display-xl md:mb-8 font-display italic text-black">
+              CBR Name
+            </h1>
+          </div>
+
+          {/* Content Row */}
+          <div className="flex flex-col lg:flex-row items-start justify-between gap-8">
+            {/* Left - Stats Text */}
+            <div className="flex-1 max-w-lg">
+              <p className="text-heading-lg font-display italic text-black leading-relaxed">
+                Stats: ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod
+              </p>
+            </div>
+
+            {/* Right - Bike Image */}
+            <div className="flex-shrink-0">
+              <ImageBlock
+                src="/images/bikePlaceholder.png"
+                alt="CBR electric motorcycle"
+                width={400}
+                height={300}
+              />
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );
