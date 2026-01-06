@@ -20,11 +20,10 @@ export default function JoinPage() {
             </h1>
 
             <p className="font-body text-black text-subheading text-lg mt-8 max-w-xl">
-                Surge is made up of students like you. Join Now. Lorem ipsum
-                dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-                volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-                tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.
+                While our bikes are powered by electricity, Surge is powered by students. 
+                If you’re curious about the inner workings of electric vehicles and want an 
+                opportunity to dive into the field headfirst, apply to Surge today. No experience 
+                 required, just a desire to learn and contribute. 
             </p>
             </div>
 

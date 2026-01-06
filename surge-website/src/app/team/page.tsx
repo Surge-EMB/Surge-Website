@@ -60,12 +60,13 @@ export default function TeamPage() {
             </h2>
             <div className="flex flex-col md:flex-row gap-8 items-start">
               <p className="text-subheading font-body text-black flex-1 max-w-sm">
-                This is our electrical team. It designs the high voltage and low
-                voltage systems present on our bike. An incredibly
-                interdisciplinary team, working on electrical encompasses
-                designing battery exposures, programming dashboards, etc etc etc.
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam nonummy nibh
+                The work of the electrical team encompasses the bike’s low and high-voltage systems. 
+                Our high-voltage work includes designing and fabricating our custom battery packs, ensuring 
+                the bike is able to meet racing-level specs. The low-voltage side includes designing 
+                custom peripherals like our dashboard, while regulating power across the bike’s other 
+                accessories. The substantial number of software, hardware, and mechanical components 
+                within the electrical subsystem makes the electrical team a particularly interdisciplinary 
+                and exciting group to be a part of.
               </p>
               <div className="flex-shrink-0">
                 <TeamMember
