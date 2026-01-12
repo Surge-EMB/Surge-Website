@@ -54,19 +54,20 @@ export default function TeamPage() {
       <section className="bg-white px-8 border-text-blue lg:border-y-6">
         <div className="flex flex-col lg:flex-row">
           {/* Electrical Team */}
-          <div className="flex-1 px-8 py-6 lg:border-r-6 border-text-yellow">
+          <div className="flex-1 px-8 py-6 lg:border-r-6 border-text-yellow flex flex-col">
             <h2 className="text-display font-display text-text-blue mb-6">
               Electrical
             </h2>
-            <div className="flex flex-col md:flex-row gap-8 items-start">
+            <div className="flex flex-col md:flex-row gap-8 items-start mb-auto">
               <p className="text-subheading font-body text-black flex-1 max-w-sm">
-                The work of the electrical team encompasses the bike’s low and high-voltage systems. 
-                Our high-voltage work includes designing and fabricating our custom battery packs, ensuring 
-                the bike is able to meet racing-level specs. The low-voltage side includes designing 
-                custom peripherals like our dashboard, while regulating power across the bike’s other 
-                accessories. The substantial number of software, hardware, and mechanical components 
-                within the electrical subsystem makes the electrical team a particularly interdisciplinary 
-                and exciting group to be a part of.
+                The Electrical subteam is responsible for the motorcycle’s high-voltage and 
+                low-voltage systems. On the high-voltage side, the team designs and 
+                manufactures the battery pack from the cell level up, including charging, 
+                balancing, and integration with the powertrain to meet performance and 
+                reliability requirements. The low-voltage system supports data, sensing, control, 
+                and logging across the bike, including the design of custom electronics such as the dashboard. 
+                The Electrical subteam works closely with mechanical and software teams to ensure robust system 
+                integration and dependable operation.
               </p>
               <div className="flex-shrink-0">
                 <TeamMember
@@ -91,15 +92,20 @@ export default function TeamPage() {
           </div>
 
           {/* Mechanical Team */}
-          <div className="flex-1 px-8 py-6 lg:border-l-6 border-text-blue">
+          <div className="flex-1 px-8 py-6 lg:border-l-6 border-text-blue flex flex-col">
             <h2 className="text-display font-display text-text-blue mb-6">
               Mechanical
             </h2>
-            <div className="flex flex-col md:flex-row gap-8 items-start">
+            <div className="flex flex-col md:flex-row gap-8 items-start mb-auto">
               <p className="text-subheading font-body text-black flex-1 max-w-sm">
-                This is our mechanical team. They are responsible for blah blah
-                blah etc etc. Lorem ipsum dolor sit amet, consectetuer adipiscing
-                elit, sed diam nonummy nibh
+                The Mechanical subteam is responsible for the design and integration of the motorcycle’s 
+                core structural systems. For the current conversion project, the team works from a stripped 
+                production frame and designs all required components, including motor mounts, battery mounts, 
+                subframe structures, and drivetrain elements such as sprockets. Manufacturing is done in-house 
+                using standard metals, with rapid prototyping through 3D printing, laser cutting, and waterjet 
+                fabrication. As the team moves toward future projects, the Mechanical subteam will lead full 
+                chassis and frame design, overseeing the mechanical integrity and layout of the motorcycle as a 
+                complete system.
               </p>
               <div className="flex-shrink-0">
                 <TeamMember

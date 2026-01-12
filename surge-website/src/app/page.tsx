@@ -12,9 +12,10 @@ export default function HomePage() {
           {/* Left - Description Text */}
           <div className="flex-1">
             <p className="text-white text-heading-md font-body leading-relaxed">
-              Welcome to Surge, UC Berkeley’s premier electric motorcycle racing team.
-               We are a club of students tied together by a passion for designing, engineering,
-               and fabricating cutting-edge electric vehicles from the ground up. 
+              Surge is a student-led electric motorcycle engineering team at UC Berkeley. 
+              We design, build, and test high-performance electric motorcycles, giving students 
+              hands-on experience in vehicle systems, manufacturing, and integration. Our work 
+              emphasizes sound engineering, practical fabrication, and real-world performance.
             </p>
           </div>
 
@@ -51,10 +52,12 @@ export default function HomePage() {
             {/* Left - Stats Text */}
             <div className="flex-1">
               <p className="text-heading-md font-body text-black leading-relaxed">
-                This bike is the founding project of Surge and 
-                represents a full ground-up electric motorcycle conversion. We began with a 2006 Honda 
-                CBR600RR purchased in non-running condition and stripped the platform down to the frame to 
-                redesign the drivetrain, energy system, and supporting structure around an electric architecture.
+                Our current bike is Surge’s first project and foundation. Built on a 2006 
+                Honda CBR600RR purchased with a failed engine, the platform was stripped of 
+                all combustion components and repurposed as the basis for a full electric 
+                conversion. This project is allowing the team to learn through hands-on design, 
+                fabrication, and integration, and will directly inform future fully custom 
+                electric superbike builds.
               </p>
             </div>
 
