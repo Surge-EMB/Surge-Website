@@ -43,7 +43,7 @@ export default function HomePage() {
               INTRODUCING
             </h1>
             <h1 className="text-display md:text-display-xl md:mb-8 font-display italic text-black">
-              CBR Name
+              Thunderbird
             </h1>
           </div>
 

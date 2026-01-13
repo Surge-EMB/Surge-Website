@@ -4,23 +4,21 @@ import TeamMember from "@/src/components/TeamMember";
 
 // Placeholder data - replace with actual team data
 const executiveBoard = [
-  { name: "First Last Name", role: "Role", linkedIn: "#" },
-  { name: "First Last Name", role: "Role", linkedIn: "#" },
-  { name: "First Last Name", role: "Role", linkedIn: "#" },
+  { name: "Sid Mandava", role: "President", linkedIn: "https://www.linkedin.com/in/sid-mandava-102828279/"},
 ];
 
 const electricalTeam = {
-  lead: { name: "First Last Name", role: "Electrical Lead", linkedIn: "#" },
+  lead: { name: "Colin O'Brien", role: "Electrical Lead", linkedIn: "https://www.linkedin.com/in/colin-o-brien-bb27a1214/", imageSrc:  "/images/team/colinobrien.jpeg"},
   members: [
-    { name: "First Last Name", role: "Role", linkedIn: "#" },
-    { name: "First Last Name", role: "Role", linkedIn: "#" },
-    { name: "First Last Name", role: "Role", linkedIn: "#" },
+    { name: "Ethan Schein", role: "Battery Engineer", linkedIn: "#" },
+    { name: "Saheer Ahmed", role: "Battery Engineer", linkedIn: "#" },
+    { name: "Evelyn Chuang", role: "Battery Engineer", linkedIn: "#" },
     { name: "First Last Name", role: "Role", linkedIn: "#" },
   ],
 };
 
 const mechanicalTeam = {
-  lead: { name: "First Last Name", role: "Mechanical Lead", linkedIn: "#" },
+  lead: { name: "Alain Garnica", role: "Mechanical Lead", linkedIn: "https://www.linkedin.com/in/alaingarnica/" },
   members: [
     { name: "First Last Name", role: "Role", linkedIn: "#" },
     { name: "First Last Name", role: "Role", linkedIn: "#" },
@@ -74,6 +72,7 @@ export default function TeamPage() {
                   name={electricalTeam.lead.name}
                   role={electricalTeam.lead.role}
                   linkedIn={electricalTeam.lead.linkedIn}
+                  imageSrc={electricalTeam.lead.imageSrc}
                   size="md"
                 />
               </div>

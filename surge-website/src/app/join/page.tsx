@@ -29,7 +29,7 @@ export default function JoinPage() {
 
             {/* Right column - Apply button (1/3) */}
             <div className="flex justify-center lg:justify-end">
-            <Link href="/apply">
+            <Link href="https://forms.gle/4HsHPY4qsxZWdJjz6">
                 <MainButton className="text-display px-16 py-6">
                 Apply
                 </MainButton>

@@ -42,7 +42,7 @@ export default function BikePageBlock({
         >
           {title}
         </h2>
-        <p className="font-body italic text-black leading-relaxed">{bodyText}</p>
+        <p className="font-body italic text-black leading-relaxed whitespace-pre-line">{bodyText}</p>
       </div>
 
       {/* Gallery - appears on right on desktop, bottom on mobile */}

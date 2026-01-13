@@ -14,9 +14,9 @@ interface BikePageProps {
 
 const defaultBikes: Bike[] = [
   {
-    title: "Honda CBR Conversion",
+    title: "Thunderbird",
     bikeImage: "/images/bikePlaceholder.png",
-    bikeName: "Honda CBR",
+    bikeName: "Thunderbird",
   }
 ];
 

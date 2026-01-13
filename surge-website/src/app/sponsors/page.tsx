@@ -14,11 +14,11 @@ export default function SponsorPage() {
               Interested In Sponsoring?
             </h2>
             <p className="font-body text-black text-subheading leading-relaxed">
-              Info for sponsors. Lorem ipsum dolor sit amet, consectetuer 
-              adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
-              laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad 
-              minim veniam, quis nostrud exerci tation ullamcorper suscipit 
-              lobortis nisl ut aliquip ex ea commodo consequat.
+              	Surge is an exciting club, largely because it’s so new. Support and contributions 
+                from companies and individuals like you are vital for our long-term success. We offer a 
+                variety of benefits to our sponsors, the details of which can be found in the sponsorship 
+                packet linked on the right. Interested in funding Berkeley’s newest, fastest club? Check 
+                out our sponsorship packet!
             </p>
           </div>
           <div className="flex-shrink-0">
@@ -37,11 +37,9 @@ export default function SponsorPage() {
               Help Keep the Power On.
             </h2>
             <p className="font-body text-black text-subheading leading-relaxed">
-              Make a direct donation to our team. Lorem ipsum dolor sit amet, 
-              consectetuer adipiscing elit, sed diam nonummy nibh euismod 
-              tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi 
-              enim ad minim veniam, quis nostrud exerci tation ullamcorper 
-              suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+              Individual donations also go a long way in ensuring that Surge can continue to grow and 
+              improve. We are incredibly grateful for the support we receive from all our sponsors, no 
+              matter the amount. On behalf of everyone at Surge, we’d like to say thank you. 
             </p>
           </div>
           <div className="flex-shrink-0">
