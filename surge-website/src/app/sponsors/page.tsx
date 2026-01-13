@@ -43,7 +43,7 @@ export default function SponsorPage() {
             </p>
           </div>
           <div className="flex-shrink-0">
-            <Link href="/donate">
+            <Link href="https://donate.stripe.com/6oEeYJ5CX6Ay5a03cl">
               <MainButton className="md:text-display text-heading-lg px-16 py-6">
                 DONATE
               </MainButton>
