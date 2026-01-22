@@ -4,11 +4,11 @@ import TeamMember from "@/src/components/TeamMember";
 
 // Placeholder data - replace with actual team data
 const executiveBoard = [
-  { name: "Sid Mandava", role: "President", linkedIn: "https://www.linkedin.com/in/sid-mandava-102828279/"},
+  { name: "Sid Mandava", role: "President", linkedIn: "https://www.linkedin.com/in/sid-mandava-102828279/", imageSrc: "/images/team/sidMandava.jpg"},
 ];
 
 const electricalTeam = {
-  lead: { name: "Colin O'Brien", role: "Electrical Lead", linkedIn: "https://www.linkedin.com/in/colin-o-brien-bb27a1214/", imageSrc:  "/images/team/colinobrien.jpeg"},
+  lead: { name: "Colin O'Brien", role: "Electrical Lead", linkedIn: "https://www.linkedin.com/in/colin-o-brien-bb27a1214/", imageSrc:  "/images/team/colinObrien.jpeg"},
   members: [
     { name: "Ethan Schein", role: "Battery Engineer", linkedIn: "#" },
     { name: "Saheer Ahmed", role: "Battery Engineer", linkedIn: "#" },
@@ -18,7 +18,7 @@ const electricalTeam = {
 };
 
 const mechanicalTeam = {
-  lead: { name: "Alain Garnica", role: "Mechanical Lead", linkedIn: "https://www.linkedin.com/in/alaingarnica/" },
+  lead: { name: "Alain Garnica", role: "Mechanical Lead", linkedIn: "https://www.linkedin.com/in/alaingarnica/", imageSrc: "/images/team/alainGarnica.JPG" },
   members: [
     { name: "First Last Name", role: "Role", linkedIn: "#" },
     { name: "First Last Name", role: "Role", linkedIn: "#" },
@@ -42,6 +42,7 @@ export default function TeamPage() {
               name={member.name}
               role={member.role}
               linkedIn={member.linkedIn}
+              imageSrc={member.imageSrc}
               size="md"
             />
           ))}
@@ -111,6 +112,7 @@ export default function TeamPage() {
                   name={mechanicalTeam.lead.name}
                   role={mechanicalTeam.lead.role}
                   linkedIn={mechanicalTeam.lead.linkedIn}
+                  imageSrc={mechanicalTeam.lead.imageSrc}
                   size="md"
                 />
               </div>

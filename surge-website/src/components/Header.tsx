@@ -20,7 +20,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-20 md:h-30">
           {/* Logo */}
-          <Link href="/" className="flex-shrink-0">
+          <Link href="/" className="flex-shrink-0 outline-none">
             {/* Replace with your actual logo */}
             <div className="flex flex-col items-center">
               <Image
@@ -45,7 +45,7 @@ export default function Header() {
           {/* Mobile Hamburger Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden flex flex-col justify-center items-center w-10 h-10 gap-1.5"
+            className="md:hidden flex flex-col justify-center items-center w-10 h-10 gap-1.5 outline-none"
             aria-label="Toggle menu"
           >
             <motion.span
@@ -99,8 +99,6 @@ interface NavLinkProps {
 }
 
 function NavLink({ href, children }: NavLinkProps) {
-  const isActive = false;
-
   return (
     <Link
       href={href}
@@ -108,6 +106,7 @@ function NavLink({ href, children }: NavLinkProps) {
         font-display text-display-xl lg:text-display text-text-blue uppercase
         hover:scale-110
         transition-transform duration-normal
+        outline-none
       `}
     >
       {children}
@@ -127,7 +126,7 @@ function MobileNavLink({ href, children, onClick }: MobileNavLinkProps) {
     <Link
       href={href}
       onClick={onClick}
-      className="font-display text-display text-text-blue uppercase py-0 px-6 hover:bg-text-blue hover:text-text-yellow transition-colors duration-normal"
+      className="font-display text-display text-text-blue uppercase py-0 px-6 hover:bg-text-blue hover:text-text-yellow transition-colors duration-normal outline-none"
     >
       {children}
     </Link>

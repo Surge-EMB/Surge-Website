@@ -34,6 +34,8 @@ export default function ThunderbirdPage() {
 
         Electrical interconnects use copper–nickel hybrid busbars to combine high conductivity with reliable spot-weld interfaces. The pack incorporates a battery management system for cell monitoring and protection, and the entire battery system was designed, assembled, and validated by the team.`}
         images={[
+          { src: "/images/bikes/thunderbird/BatteryCAD1.png", alt: "Battery CAD"},
+          { src: "/images/bikes/thunderbird/BatteryCAD2.png", alt: "Battery CAD"},
           { src: "/images/bikes/thunderbird/BatteryModulePrototype.JPG", alt: "Prototype assembly of a single battery module" },
           { src: "/images/bikes/thunderbird/BatteryModule.JPG", alt: "Assembled single battery module" },
         ]}
