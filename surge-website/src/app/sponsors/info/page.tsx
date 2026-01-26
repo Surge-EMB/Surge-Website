@@ -6,14 +6,6 @@ import MainButton from "@/src/components/MainButton";
 const BORDER_COLOR = "#1e3a5f"; // Dark blue - change this to any color you want
 
 export default function SponsorInfoPage() {
-  const handleDownload = () => {
-    const link = document.createElement("a");
-    link.href = "/SponsorshipPacketSP26.pdf";
-    link.download = "SponsorshipPacketSP26.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
 
   return (
     <main
@@ -26,9 +18,6 @@ export default function SponsorInfoPage() {
           <h1 className="text-white text-display md:text-dispaly-lg font-display italic">
             Sponsorship Packet
           </h1>
-          <MainButton onClick={handleDownload} className="px-8 py-3">
-            DOWNLOAD PDF
-          </MainButton>
         </div>
 
         {/* PDF Viewer Container */}
