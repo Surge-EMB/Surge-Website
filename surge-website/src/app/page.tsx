@@ -18,8 +18,8 @@ export default function HomePage() {
               emphasizes sound engineering, practical fabrication, and real-world performance.
             </p>
           </div>
-
-          {/* Right - Bike Image with Border */}
+          {/* Commented out until we get more photos of bike */}
+          {/* Right - Bike Image with Border
           <div className="flex-shrink-0">
             <ImageBlock
               src="/images/bikePlaceholder.png"
@@ -27,7 +27,7 @@ export default function HomePage() {
               width={450}
               height={300}
             />
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -64,7 +64,7 @@ export default function HomePage() {
             {/* Right - Bike Image */}
             <div className="flex-shrink-0">
               <ImageBlock
-                src="/images/bikePlaceholder.png"
+                src="/images/bikes/thunderbird/EmptyBike.jpeg"
                 alt="CBR electric motorcycle"
                 width={400}
                 height={300}

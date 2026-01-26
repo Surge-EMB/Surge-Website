@@ -8,7 +8,7 @@ const executiveBoard = [
 ];
 
 const electricalTeam = {
-  lead: { name: "Colin O'Brien", role: "Electrical Lead", linkedIn: "https://www.linkedin.com/in/colin-o-brien-bb27a1214/", imageSrc:  "/images/team/colinObrien.jpeg"},
+  lead: { name: "Colin O'Brien", role: "Electrical Lead", linkedIn: "https://www.linkedin.com/in/colin-o-brien-bb27a1214/", imageSrc:  "/images/team/colinOBrien.jpeg"},
   members: [
     { name: "Ethan Schein", role: "Battery Engineer", linkedIn: "#" },
     { name: "Saheer Ahmed", role: "Battery Engineer", linkedIn: "#" },
@@ -78,8 +78,9 @@ export default function TeamPage() {
                 />
               </div>
             </div>
+            {/* Commented out until we get headshots and name */}
             <div className="flex justify-start gap-8 mt-8 flex-wrap">
-              {electricalTeam.members.map((member, index) => (
+              {/* {electricalTeam.members.map((member, index) => (
                 <TeamMember
                   key={index}
                   name={member.name}
@@ -87,7 +88,7 @@ export default function TeamPage() {
                   linkedIn={member.linkedIn}
                   size="sm"
                 />
-              ))}
+              ))} */}
             </div>
           </div>
 
@@ -118,7 +119,8 @@ export default function TeamPage() {
               </div>
             </div>
             <div className="flex justify-start gap-8 mt-8 flex-wrap">
-              {mechanicalTeam.members.map((member, index) => (
+              {/* Commented out until we get headshots and name permission */}
+              {/* {mechanicalTeam.members.map((member, index) => (
                 <TeamMember
                   key={index}
                   name={member.name}
@@ -126,7 +128,7 @@ export default function TeamPage() {
                   linkedIn={member.linkedIn}
                   size="sm"
                 />
-              ))}
+              ))} */}
             </div>
           </div>
         </div>
