@@ -22,7 +22,7 @@ export default function SponsorPage() {
             </p>
           </div>
           <div className="flex-shrink-0">
-            <Link href="/sponsor/info">
+            <Link href="/sponsors/info">
               <MainButton className="md:text-display text-heading-lg px-16 py-6">
                 SPONSOR INFO
               </MainButton>
