@@ -8,7 +8,7 @@ const executiveBoard = [
 ];
 
 const electricalTeam = {
-  lead: { name: "Colin O'Brien", role: "Electrical Lead", linkedIn: "https://www.linkedin.com/in/colin-o-brien-bb27a1214/", imageSrc:  "/images/team/colinOBrien.jpeg"},
+  lead: { name: "Colin O'Brien", role: "Electrical Lead", linkedIn: "https://www.linkedin.com/in/colin-o-brien-bb27a1214/", imageSrc:  "/images/team/colinOBrien.jpg"},
   members: [
     { name: "Ethan Schein", role: "Battery Engineer", linkedIn: "#" },
     { name: "Saheer Ahmed", role: "Battery Engineer", linkedIn: "#" },
