@@ -12,10 +12,10 @@ interface TeamMemberProps {
 
 const sizeClasses = {
   sm: {
-    circle: "w-32 h-32",
+    circle: "w-40 h-40",
     image: 128,
-    name: "text-heading-md font-display text-black",
-    text: "text-small font-body text-black",
+    name: "text-heading-lg font-display text-black",
+    text: "text-body font-body text-black",
   },
   md: {
     circle: "w-48 h-48",
