@@ -10,7 +10,8 @@ const executiveBoard = [
 const electricalTeam = {
   lead: { name: "Colin O'Brien", role: "Electrical Lead", linkedIn: "https://www.linkedin.com/in/colin-o-brien-bb27a1214/", imageSrc:  "/images/team/colinOBrien.jpg"},
   members: [
-    { name: "Evelyn Chuang", role: "High Voltage", linkedIn: "http://www.linkedin.com/in/evelyn-chuang", imageSrc: "/images/team/evelynChuang1.jpg"}
+    { name: "Evelyn Chuang", role: "High Voltage", linkedIn: "http://www.linkedin.com/in/evelyn-chuang", imageSrc: "/images/team/evelynChuang1.jpg"},
+    { name: "Ansh Thakkar", role: "Low Voltage", linkedIn: "https://www.linkedin.com/in/ansh-thakkar/", imageSrc: "/images/team/anshThakkar.jpg"}
   ],
 };
 
